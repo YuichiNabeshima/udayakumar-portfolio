@@ -8,7 +8,6 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { useEffect, useState } from "react"
 
-// アニメーション変数の定義
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -37,7 +36,6 @@ const slideIn = {
   },
 }
 
-// AnimatedSectionコンポーネント
 interface AnimatedSectionProps {
   children: React.ReactNode;
   className?: string;
@@ -73,7 +71,6 @@ const AnimatedSection = ({ children, className = "", delay = 0 }: AnimatedSectio
   )
 }
 
-// ポートフォリオコンポーネント
 export default function Portfolio() {
   const [scrollY, setScrollY] = useState(0)
   const [skillValues, setSkillValues] = useState({
