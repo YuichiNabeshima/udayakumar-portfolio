@@ -209,7 +209,7 @@ export default function Portfolio() {
             <div className="relative w-full aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-purple-600/20 rounded-full blur-3xl" />
               <img
-                src="/thumbnail.png"
+                src="./thumbnail.png"
                 alt="Udayakumar"
                 className="relative rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
               />
